@@ -1,27 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import {combineReducers, legacy_createStore,applyMiddleware} from "redux";
 import {loginReducer} from "./auth/auth.reducer"
 import thunk from "redux-thunk"
